@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Css calls-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="title d-block pt-5">
+        <h2>This is page title</h2>
+    </div>
+    <div class="row pt-5">
+
+        <div class="col-lg-4 col-12  col-md-6 bg-success text-light text-left rounded-right">
+            <i class="fab fa-accessible-icon text-center d-block p-3 fa-2x"></i>
+            <h3>This is header 1</h3>
+            <p>A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. Amar sunar bangla ami tumay valobashi</p>
+        </div>
+        <div class="col-lg-4 col-12  col-md-6 bg-warning border-light rounded-left text-center rounded-right">
+            <i class="fab fa-accessible-icon text-center d-block p-3 fa-2x"></i>
+            <h3>This is header 2</h3>
+            <p class="text-muted">A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. Amar sunar bangla ami tumay valobashi</p>
+        </div>
+        <div class="col-lg-4 col-12 col-md-12 bg-info rounded-left">
+            <i class="fab fa-accessible-icon text-center d-block p-3 fa-2x"></i>
+            <h3>This is header</h3>
+            <p>A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. Amar sunar bangla ami tumay valobashi</p>
+            <p>Amar Sunar bangla</p>
+        </div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+        <div class="col-md-12 mb-3 pl-0">
+            <button class="btn btn-success btn-lg">CD download </button>
+            <button class="btn btn-info btn-lg">CD Upload </button>
+            <a href="#" class="btn btn-primary btn-lg">Hello World</a>
+        </div>
+        <div class="col-md-12 pl-0">
+                <button class="btn btn-outline-success btn-lg">CD download </button>
+                <button class="btn btn-outline-info btn-lg">CD Upload </button>
+                <a href="#" class="btn btn-outline-primary btn-lg">Hello World</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 pl-0">
+            <div class="student-list">
+                <ul class="list-group">
+                    <li class="list-group-item bg-primary">Shahidul Islam</li>
+                    <li class="list-group-item bg-info active">Sumay Islam</li>
+                    <li class="list-group-item bg-success">Tasfia Islam</li>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5 text-center d-flex justify-content-center">
+        <a href="#ListInfo" class="btn btn-outline-warning btn-md mb-4 w-100" data-toggle="collapse">Please Check it!</a>
+        <div id="ListInfo" class="collapse">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sequi consequatur fuga sunt, quod aliquid? Eos aliquid sed minus corrupti nemo iure illum officia aliquam placeat voluptatibus odit necessitatibus labore, vero rem quaerat commodi reprehenderit nihil, expedita perspiciatis. Animi, dignissimos!</p>
+        </div>
+    </div>
+
+    <footer class="d-flex justify-content-center align-items-top pb-5">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link bg-success text-white border-success" href="#">Pre</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link bg-primary text-white border-primary" href="#">Next</a></li>
+        </ul>
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $('.toast').toast('show');
+        });
+        </script>
+
+</body>
+</html>
